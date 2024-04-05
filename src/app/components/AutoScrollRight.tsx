@@ -13,6 +13,7 @@ const AutoScrollRight = () => {
 
   return (
     <div className="w-full overflow-hidden">
+        
       <div className="flex">
         <ul
           id="autoScrollContentRight"

@@ -3,7 +3,7 @@ import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 const UserCard = () => {
   return (
     <React.Fragment>
-      <div className="m-2 flex-col bg-suppport p-10 rounded-2xl flex items-center max-w-max text-center">
+      <div className="m-2 flex-col w-[250px] h-[300px] bg-suppport rounded-2xl flex justify-center items-center text-center">
         <PermIdentityIcon
           className="text-featureSubHeader"
           sx={{ width: 50, height: 50 }}

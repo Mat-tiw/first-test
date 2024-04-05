@@ -11,6 +11,8 @@ const config: Config = {
       animation: {
         "marquee-left": "marquee-left 25s linear infinite",
         "marquee-right": "marquee-right 25s linear infinite",
+        "marquee-up": "marquee-up 25s linear infinite",
+        "marquee-down": "marquee-down 25s linear infinite",
       },
       keyframes: {
         "marquee-left": {
@@ -20,6 +22,14 @@ const config: Config = {
         "marquee-right": {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-100%)" },
+        },
+        "marquee-up":{
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(100%)" },
+        },
+        "marquee-down":{
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-100%)" },
         },
       },
       backgroundImage: {
@@ -36,6 +46,11 @@ const config: Config = {
         featureSubHeader: "#6D76A3",
         newBox: "#F2F6FF",
         placeholder: "#667085",
+      },
+      screens:{
+        'mobile':{'max':'640px'},
+        "desktop":{'max':'1080px'},
+        "desktop-min":{'min':'1080px'}
       },
     },
   },
